@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style>
+    * {
+                margin: 0;
+                padding: 0;
+            }
+            html, body {
+                height:100%;
+            }
+            body {
+                min-height:100%;
+                display:flex;
+                flex-direction:column;
+                
+            }
+            .wrapper {
+                flex:1;
+            }
+            .main-header {
+                background-color: #CCC;
+                height: 50px;
+                width: 70%;
+                padding: 5px 15%;
+            }
+            .main-header h1 {
+                line-height: 50px;
+            }
+            .footer {
+                height: 50px;
+                background-color: #CCC;
+            }
+            span.logo {
+                color: blue;
+            }
+            .copyright {
+                color: blue;
+                font-weight: bold;
+                width: 100%;
+                text-align: center;
+                padding: 15px 0;
+            }
+            .box-shadow {
+                box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+            }
+            .content-top {
+                height: 180px;
+                background-color: #CCC;
+                margin: 10px 0;
+            }
+
+            .content-bio {
+                position: relative;
+                background-color: #AAA;
+                width: 70%;
+                max-width:980px;
+                height: 180px;
+                margin: 0 auto;
+            }
+            .content-bio img {
+                width: 150px;
+                height: 170px;
+                margin: 5px 15px 5px 5px;
+            }
+            .bio-text {
+                position: absolute;
+                top: 5px;
+                left: 170px;
+            }
+            .content-bottom {
+                overflow: auto;
+                width: 70%;
+                max-width: 980px;
+                position: relative;
+                margin: 0 auto;
+            }
+            .sidebar {
+                float: left;
+                background-color: #f1f1f1;
+                width: 25%;
+                height: 500px;
+            }
+
+            .main-content {
+                float: right;
+                background-color: #aaaaaa;
+                width: 71%;
+                height: 500px;
+                padding: 0 2% 0 2%;
+            }
+
+            .sidebar-links {
+                background-color: #f1f1f1;
+            }
+            .sidebar-links li {
+                width: 100%;
+                height: 30px;
+                border: 1px solid #CCC;
+                border-top: 1px solid #FFF;
+            }
+            .sidebar-links a {
+                display: block;
+                padding: 7px;
+                text-decoration: none;
+                transition-duration: 0.7s;
+            }
+            .sidebar-links a:hover {
+                background-color: #CCC;
+                color: #ccc;
+            }
+			.gallery h1 {
+				margin: 30px 0 15px 0;
+			}
+			.gallery ul {
+				list-style-type:none;
+				text-align: center;
+				margin-top: 20px;
+			}
+			.gallery li {
+				margin-right:10px;
+				display:inline;
+
+			}
+			.gallery img {
+				width:150px;
+				height:150px;
+                position: center;
+			}
+    section.three-column {
+        margin-top:30px;
+    }
+    aside.three-column {
+        width:15%;
+    }
+    header.main-header {
+        background-color: darkgoldenrod;
+    }
+    footer.footer.box-shadow {
+        background-color: darkgoldenrod;
+    }
+    aside.sidebar-right {
+        width:18%;
+        background-color:darkgoldenrod;
+        height:100%;
+        float:right;
+        min-height:480px;
+        padding:1%;
+    }
+    aside.sidebar.three-column {
+        background-color: darkgoldenrod;
+    }
+    article.three-column-content {
+        width:61%;
+        position:absolute;
+        left:15%;
+        float:none;
+        background: url();
+        background-size: 700px 600px;
+    }
+    div.wrapper {
+        background: url(http://www.steiner-optics.com/sites/default/files/Hunting%20%E2%80%93%20Wolf%20Hunt%20%E2%80%93%20Hunter%20Walking%20Along%20Hill%20By%20Dead%20Bush.jpg);
+        background-size: 2000px 900px;
+    }
+    table.courses-table {
+        width:100%;
+    }
+    table.courses-table tr {
+        padding:3px 5px;
+        background-color:ghostwhite;
+        border:1px solid #CCC;
+        transition-duration:0.7s;
+    }
+    table.courses-table tr:nth-child(even) {
+        background-color:#CCC;
+    }
+    table.courses-table tr:hover {
+        background-color:yellow;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header box-shadow">
+            <h1>ADVANCED SIMPLICITY</h1>
+        </header>
+        <section class="content-bottom three-column">
+            <aside class="sidebar three-column">
+                <ul class="sidebar-links">
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Contact.html">Contact-Us</a></li>
+                    <li><a href="./Gallery.html">Gallery</a></li>
+                    
+                    
+                </ul>
+            </aside>
+            <article class="main-content three-column-content">
+                <div class="gallery">
+                    <h1>Our Product</h1>
+                   <table>
+						<tr>
+							<th>Assault Rifle</th>
+							<th>Shotgun</th>
+							<th>Handgun</th>
+							<th>Sniper</th>
+						</tr>	
+						<tr>
+							<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/AKM_automatkarbin%2C_Ryssland_-_7%2C62x39mm_-_Arm%C3%A9museum.jpg/250px-AKM_automatkarbin%2C_Ryssland_-_7%2C62x39mm_-_Arm%C3%A9museum.jpg" ></li>
+							<td><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRta10zBJ_Kauh_3Ni9Yu3CeFChV37EXUMIk6U_pXyYbUVmEAtlRQ" ></li>
+							<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbgESoy4dahkpEvw6v-GKKMQrTLIX_qJVhh_rLOrqf4v69iLI2" ></li>
+							<td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfGGukYvHeRhg8VRIU6CExN9SgbO3Xw3jH4Aae4O-q_kZyupvN7A" ></li>
+						</tr>
+						<tr>
+							<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/AK-103_Assault_Rifle.JPG/250px-AK-103_Assault_Rifle.JPG" ></li>
+							<td><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNsucrr6u0KrQ6UtAvSjPfntkPiR62YI7L7pCfE15E7vMvaqcCaw" ></li>
+							<td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTh8RyLBC88uMCP1q2QRYGhfWlXt8w4PL6orosXimILIbzAaM5t" ></li>
+							<td><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRg1vtgZ-Erqr4H3FkcYMDkMTk5l2s85CHq6kNMOizn4jTpCiJO" ></li>
+						</tr>
+					</table>
+                </div>
+            </article>
+            <aside class="sidebar-right">
+                <h1>Our Product</h1>
+                    <div class="gallery">
+                    <h1></h1>
+                    <table class="courses-table">
+                        <tr>
+                            <th>Gun</th>
+                            <th>Price Range</th>
+                        </tr>
+                        <tr>
+                            <td>Assault Rifles</td>
+                            <td>$300 - $5000</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Shotgun</td>
+                            <td>$250 - $3000</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Handgun</td>
+                            <td>$150 - $2000</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Submachinegun</td>
+                            <td>$300 - $5000</td>
+                            
+                        </tr>
+                        
+                    </table>
+                </div>
+            </aside>
+        </section>
+    </div>
+    <footer class="footer box-shadow">
+        <p class="copyright">
+            (c) Created by Steven Lee
+        </p>
+    </footer>
+</body>
+</html>
